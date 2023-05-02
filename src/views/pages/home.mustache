@@ -1,0 +1,11 @@
+{{>partials/header}}
+
+<h2>Usuários do banco</h2>
+
+<ul>
+    {{#users}}
+       <li>{{ name }} - Idade: {{ age }}</li>
+    {{/users}}
+</ul>
+
+{{>partials/footer}}
